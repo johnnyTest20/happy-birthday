@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/party"/>
+
+
+    <TextView
+        android:text="Happy Birthday Jim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="36dp"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="From, Matthew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36dp"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:id="@+id/textView2" />
+
+
+
+</RelativeLayout>
